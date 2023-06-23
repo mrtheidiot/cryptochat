@@ -1,0 +1,67 @@
+html {
+  background-color: rgb(51, 47, 47);
+  color: white;
+}
+
+.layout_topbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 10px;
+}
+
+.layout_paragraph {
+  padding: 10px;
+  line-height: 25px;
+}
+
+.home_main {
+  margin-top: 5vh;
+  display: flex;
+  justify-content: space-around;
+}
+
+.home_main div {
+  text-align: center;
+}
+
+.clientList_list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0;
+  flex-direction: column;
+}
+
+.clientList_list button {
+  margin: 5px 0;
+}
+
+.home_name {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.home_name label {
+  margin-right: 10px;
+}
+
+.layout2_main {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.layout2_main > div {
+  width: 50%;
+}
+
+.messages {
+  border: solid 1px white;
+  width: 90%;
+  min-height: 200px;
+  margin-bottom: 10px;
+}
+
+.buttons_user1 button {
+  margin: 5px 5px 0 0;
+}
